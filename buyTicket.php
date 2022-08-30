@@ -15,7 +15,7 @@ if (isset($_REQUEST['id'])         &&
     try {
 
         $order_time = date("Y-m-d H:i:s");
-        $price = 100.00;
+        $price = 200.00;
 
         $result = mysqli_query($db,"SELECT MAX(`id`) FROM customer_order");
         $row = mysqli_fetch_row($result);
